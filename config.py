@@ -1,9 +1,5 @@
-from dotenv import load_dotenv
-import os
+import streamlit as st
 
-# Load environment variables from .env file
-load_dotenv()
-
-API_KEY = os.getenv("API_KEY")
-UNSPLASH_ACCESS_KEY = os.getenv("UNSPLASH_ACCESS_KEY")
-GOOGLE_PLACES_API_KEY = os.getenv("GOOGLE_PLACES_API_KEY")
+API_KEY = st.secrets["API_KEY"]
+UNSPLASH_ACCESS_KEY = st.secrets["UNSPLASH_ACCESS_KEY"]
+GOOGLE_PLACES_API_KEY = st.secrets["GOOGLE_PLACES_API_KEY"]
