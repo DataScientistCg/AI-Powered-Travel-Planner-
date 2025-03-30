@@ -149,7 +149,6 @@ PyMuPDF==1.25.1
 pyOpenSSL==24.1.0
 pyparsing==3.2.1
 pyperclip==1.9.0
-pypiwin32==223
 PyRect==0.2.0
 PyScreeze==1.0.1
 PySocks==1.7.1
@@ -164,7 +163,6 @@ pytweening==1.2.0
 pytz==2023.3.post1
 PyWavelets==1.6.0
 pywhatkit==5.4
-pywin32==306
 PyYAML==6.0.2
 qh3==1.4.1
 rapidfuzz==3.5.2
